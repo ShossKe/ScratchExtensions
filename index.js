@@ -10,7 +10,7 @@ class Scratch3Shosuke {
     getInfo () {
         return {
             id: 'shosuke',
-            name:'上西君？v1',
+            name:'？v1',
             
             blocks: [
                 {
@@ -28,19 +28,7 @@ class Scratch3Shosuke {
                 },
                 
               
-                {
-                    opcode:'uenisikun',
-                    blockType: BlockType.REPORTER,
-                    text: '上西君[UEN]',
-                    
-                    arguments: {
-                        UEN: {
-                            type: ArgumentType.NUMBER,
-                            defaultValue:'9'
-                        }
-                        
-                    }
-                },
+              
                 {
                     opcode:'fetchJson',
                     blockType:BlockType.REPORTER,
