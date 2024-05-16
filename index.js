@@ -9,7 +9,7 @@ class Scratch3Shosuke {
 
     getInfo () {
         return {
-            id: 'shosuke',
+            id: 'shoske',
             name:'？v1',
             
             blocks: [
@@ -43,7 +43,7 @@ class Scratch3Shosuke {
                     }
                 },
                 {
-                    opcode:'shosukekun',
+                    opcode:'shoukkun',
                     blockType:BlockType.REPORTER,
                     text:'[HIDA]²',
                     arguments:{
@@ -55,7 +55,7 @@ class Scratch3Shosuke {
                     
                 },
                 {
-                    opcode:'shosuke',
+                    opcode:'shose',
                     blockType:BlockType.REPORTER,
                     text:'[HIKDA]⁷',
                     arguments:{
@@ -129,7 +129,7 @@ class Scratch3Shosuke {
     showAlert (args) {
         alert(args.TEXT)
     }
-    uenisikun (args) {
+    sikun (args) {
         return args.UEN * 7
     }
     shosu (args) {
@@ -142,10 +142,10 @@ class Scratch3Shosuke {
         return fetch(args.URL).then(response =>response.text())
 
     }
-    shosukekun (args) {
+    shoukkun (args) {
         return args.HIDA ** 2
     }
-    shosuke (args) {
+    shose (args) {
         return args.HIKDA ** 7
     }
     shgrdosu (args) {
