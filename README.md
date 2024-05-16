@@ -3,10 +3,10 @@ Next, create a folder called scratch3_shs in scratch-gui-develop\node_modules\sc
 ` {
          name: 'shs',
          extensionId: 'shs'
-     },`
+     }`
 It is written as By the way, it's from lines 321 to 324.
 Next, on line 27 of scratch-gui-develop\node_modules\scratch-vm\src\extension-support\extension-manager.js
-` shs: () => require('../extensions/scratch3_shs'),`
+` shs: () => require('../extensions/scratch3_shs')`
 It is written as Now let's access `localhost:8601`.
 Press the extension button and scroll down and you should see "shs". Congratulations! It's done.
 日本語  
@@ -14,9 +14,9 @@ Press the extension button and scroll down and you should see "shs". Congratulat
 つぎに、scratch-gui-develop\node_modules\scratch-vm\src\extensionsのなかにscratch3_shsというフォルダを作り、そのなかにindex.jsを置いて、scratch-gui-develop\src\lib\libraries\extensions\index.jsxのなかに新しく`{
         name: 'shs',
         extensionId: 'shs' 
-    },`
+    }`
 と記述します。ちなみに321から324行目までです。
 つぎに、scratch-gui-develop\node_modules\scratch-vm\src\extension-support\extension-manager.jsの27行目に
-`    shs: () => require('../extensions/scratch3_shs'),`
+`    shs: () => require('../extensions/scratch3_shs')`
 と記述します。これで`localhost:8601`にアクセスしてみましょう。
 拡張機能のボタンを押して下にスクロールすると、"shs"があるはずです。おめでとう！できました。
