@@ -2,7 +2,7 @@ const { a } = require('bowser');
 const ArgumentType = require('../../extension-support/argument-type');
 const BlockType = require('../../extension-support/block-type');
 
-class Scratch3Shoske {
+class Scratch3Shose {
     constructor (runtime) {
         this.runtime = runtime;
     }
@@ -165,4 +165,4 @@ class Scratch3Shoske {
 
 }
 
-module.exports = Scratch3Shoske;
+module.exports = Scratch3Shose;
