@@ -1,5 +1,6 @@
 This is an extension of Scratch. Install node.js, download the Scratch Foundation's scratch-gui-develop as a zip file, unzip the zip file, run `npm install` in that folder, and run `npm start`. Next, access localhost:8601. Scratch will appear.
-Next, create a folder called scratch3_shs in scratch-gui-develop\node_modules\scratch-vm\src\extensions, put index.js in it, and add it to scratch-gui-develop\src\lib\libraries\extensions. Add a new ` { in \index.jsx
+Next, create a folder called scratch3_shs in scratch-gui-develop\node_modules\scratch-vm\src\extensions, put index.js in it, and add it to scratch-gui-develop\src\lib\libraries\extensions. Add a new 
+` {
          name: 'shs',
          extensionId: 'shs'
      },`
