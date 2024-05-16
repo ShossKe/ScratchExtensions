@@ -8,7 +8,7 @@ It is written as By the way, it's from lines 321 to 324.
 Next, on line 27 of scratch-gui-develop\node_modules\scratch-vm\src\extension-support\extension-manager.js
 ` shs: () => require('../extensions/scratch3_shs')`
 It is written as Now let's access `localhost:8601`.
-Press the extension button and scroll down and you should see "shs". Congratulations! It's done.
+Press the extension button and scroll down and you should see "shs". Congratulations! It's done.    
 日本語  
 これはScratchの拡張機能です。 node.jsをインストールし、Scratch Foundationのscratch-gui-developをzipファイルとしてダウンロードし、zipファイルを解凍して、そのフォルダ内で`npm install`を実行し、`npm start`を実行します。 次に、`localhost:8601` にアクセスします。 スクラッチがでてきます。
 つぎに、scratch-gui-develop\node_modules\scratch-vm\src\extensionsのなかにscratch3_shsというフォルダを作り、そのなかにindex.jsを置いて、scratch-gui-develop\src\lib\libraries\extensions\index.jsxのなかに新しく`{
