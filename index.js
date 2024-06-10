@@ -115,7 +115,12 @@ class Scratch3Shose {
                             
                         }
                     }
-                }                
+                },
+                {
+                    opcode: 'fff',
+                    blockType: BlockType.REPORTER,
+                    text: 'Show Browser Info'
+                }
                 
 
                          
@@ -156,6 +161,10 @@ class Scratch3Shose {
         return JSON.parse(args.DATA)[args.KEY]
 
     }
+    fff () {
+        return navigator.userAgent;
+    }    
+        
     
     
     
